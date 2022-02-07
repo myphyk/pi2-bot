@@ -14,5 +14,3 @@ const client = new Client ({intents: []});
 ready(client);
 interactionCreate(client);
 client.login(token);
-
-console.log(client);
