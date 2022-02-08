@@ -8,7 +8,7 @@ export default (client: Client): void => {
         }
 
         await client.application.commands.set(Commands, "705036646315196507");
-        await client.user.setActivity("/help", { type: "LISTENING"});
+        await client.user.setActivity("/help & *help", { type: "LISTENING"});
 
         console.log(`${client.user.username} is online`);
     });
