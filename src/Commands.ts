@@ -1,5 +1,7 @@
 import { Command } from "./Command";
-import { Hello } from "./commands/Hello";
 import {Corona} from "./commands/Corona";
+import {Help} from "./commands/Help";
+import {CsMap} from "./commands/CsMap";
+import {Bier} from "./commands/Bier";
 
-export const Commands: Command[] = [Hello, Corona];
+export const Commands: Command[] = [Help, Corona, CsMap, Bier];

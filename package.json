@@ -2,6 +2,8 @@
   "name": "pi2-bot",
   "version": "1.0.0",
   "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
     "discord.js": "^13.6.0"
   },
   "description": "discord bot for the pi2 discord server",
